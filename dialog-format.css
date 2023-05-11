@@ -1,0 +1,43 @@
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg-color-left: #EDEDED;
+        --bg-color-right: #95EC69;
+        --text-color-left: 191919;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color-left: #2C2C2C;
+        --bg-color-right: #3EB575;
+        --text-color-left: #D5D5D5;
+    }
+}
+
+[d="l"],
+[d="r"] {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    /* clear: both; */
+    /* 强制将元素在下一行开始（左右浮动，清除浮动） */
+}
+
+[d="l"] {
+    background-color: var(--bg-color-left);
+    color: var(--text-color-left);
+    /* float: left; */
+    margin-right: 10%;
+}
+
+[d="r"] {
+    background-color: var(--bg-color-right);
+    color: #000000;
+    /* float: right; */
+    margin-left: 10%;
+}
+
+[d="r"]:before {
+    display: inline-block;
+    text-align: right;
+}
