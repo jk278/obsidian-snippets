@@ -1,6 +1,7 @@
 /* 电脑屏宽一半为 768px */
 @media only screen and (max-width: 600px) {
-    .cm-scroller::-webkit-scrollbar {
+    .cm-scroller::-webkit-scrollbar,
+    .markdown-preview-view::-webkit-scrollbar{
         display: none;
     }
 }
