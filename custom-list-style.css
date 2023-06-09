@@ -1,0 +1,53 @@
+/* 有序列表 ol：二级列表用罗马数字，三级列表用英文字母 */
+.markdown-preview-view ol {
+  counter-reset: main-level;
+  list-style-type: none;
+}
+
+.markdown-preview-view ol > li {
+  display: block;
+  position: relative;
+}
+
+.markdown-preview-view ol > li:before {
+  counter-increment: main-level;
+  content: counters(main-level, ".") ". ";
+  margin-right: 0.3em;  /* 调整空格宽度 */
+}
+
+.markdown-preview-view ol > li > ol {
+  counter-reset: second-level;
+  list-style-type: none;
+}
+
+.markdown-preview-view ol > li > ol > li:before {
+  counter-increment: second-level;
+  content: counter(second-level, upper-roman) ".";
+  position: absolute;
+  left: -1.4em; /* 调整序号的位置 */
+}
+
+.markdown-preview-view ol > li > ol > li > ol {
+  counter-reset: third-level;
+  list-style-type: none;
+}
+
+.markdown-preview-view ol > li > ol > li > ol > li:before {
+  counter-increment: third-level;
+  content: counter(third-level, lower-alpha) ".";
+  position: absolute;
+  left: -1.4em;
+}
+
+/* 无序列表 ul：二级列表用小空心圆，三级列表用小方框 */
+.markdown-preview-view ul {
+  list-style-type: disc;
+}
+
+.markdown-preview-view ul > li > ul {
+  list-style-type: circle;
+}
+
+.markdown-preview-view ul > li > ul > li > ul {
+  list-style-type: square;
+}
