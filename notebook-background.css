@@ -1,0 +1,21 @@
+:root {
+    @media (prefers-color-scheme: light) {
+        --bg-color-notebook: #fef9f1;
+        --grid-notebook-line-color-1: #c7c7c740;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        --bg-color-notebook: #2a2825;
+        --grid-notebook-line-color-1: #c7c7c71f;
+    }
+}
+
+/* 
+    默认： .cm-scroller
+    实验： .cm-editor
+*/
+.markdown-preview-view.markdown-rendered, .cm-scroller {    
+    background: var(--bg-color-notebook) !important;
+    background-image: linear-gradient(90deg, var(--grid-notebook-line-color-1) 3%, transparent 0), linear-gradient(var(--grid-notebook-line-color-1) 3%, transparent 0) !important;
+    background-size: 20px 20px !important;
+}
