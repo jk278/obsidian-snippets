@@ -3,9 +3,9 @@
     body:not(.advanced-toolbar) .view-action:nth-last-of-type(2),
     body:not(.advanced-toolbar) .view-action:nth-last-of-type(2) {
         color: white;
-        background-color: var(--link-external-color);
+        background-color: var(--interactive-accent);
         opacity: 1;
-        top: calc(90vh - 110px);
+        top: calc(90vh - 50px);
         display: flex;
         padding: 5px;
         position: fixed;
@@ -25,10 +25,10 @@
     body.advanced-toolbar .view-action:nth-last-of-type(2),
     body.advanced-toolbar .view-action:nth-last-of-type(2) {
         color: white;
-        background-color: var(--link-external-color);
+        background-color: var(--interactive-accent);
         opacity: 1;
         position: fixed;
-        top: calc(100vh - 138px);
+        top: calc(100vh - 78px);
         display: flex;
         padding: 5px;
         left: 86vw;
