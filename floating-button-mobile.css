@@ -5,7 +5,7 @@
         color: white;
         background-color: var(--interactive-accent);
         opacity: 1;
-        top: calc(90vh - 50px);
+        top: calc(90vh - 72px);
         display: flex;
         padding: 5px;
         position: fixed;
@@ -28,7 +28,7 @@
         background-color: var(--interactive-accent);
         opacity: 1;
         position: fixed;
-        top: calc(100vh - 78px);
+        top: calc(100vh - 100px);
         display: flex;
         padding: 5px;
         left: 86vw;
