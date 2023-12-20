@@ -1,0 +1,19 @@
+[data-callout-metadata~="color-1"] {
+  background-color: rgba(178, 155, 64, 0.1) !important;
+}
+
+[data-callout-metadata~="color-2"] {
+  background-color: rgba(99, 188, 76, 0.1) !important;
+}
+
+[data-callout-metadata~="color-3"] {
+  background-color: rgba(178,22,164, 0.1) !important;
+}
+
+[data-callout-metadata~="color-4"] {
+  background-color: rgba(139, 65, 06, 0.1) !important;
+}
+
+[data-callout-metadata~="no-banner"]>.callout-title>.callout-icon {
+  display: none;
+}
