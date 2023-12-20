@@ -13,4 +13,4 @@
 <br>*来源项目：[obsidian-modular-css-layout](https://github.com/efemkay/obsidian-modular-css-layout)*
 9. colorful-callout --> 去除标题，修改颜色
     - 格式：`>![NOTE|color-1 no-banner]`
-10. colorful font --> 粗、斜体着色
+10. colorful-font --> 粗、斜体着色
