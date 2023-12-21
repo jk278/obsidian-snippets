@@ -12,7 +12,7 @@
 7. notebook-background --> 笔记本样式背景
 <br>*来源项目：[Blue Topaz](https://github.com/PKM-er/Blue-Topaz_Obsidian-css)*
 8. wide-view --> 窗口宽视图
-9. colorful-callout --> 修改 callout 颜色
+9. colorful-callout --> 修改 callout 样式
     - 格式：`>![sidenote|color-1 no-icon]`
 <br>*参考项目：[Shimmering Focus](https://github.com/chrisgrieser/shimmering-focus)*
 10. colorful-font --> 粗、斜体着色
