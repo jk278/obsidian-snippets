@@ -15,3 +15,4 @@
     - 格式：`>![sidenote|color-1 no-icon]`
 <br>*参考项目：[shimmering-focus](https://github.com/chrisgrieser/shimmering-focus)*
 10. colorful-font --> 粗、斜体着色
+11. focus-table --> 使表格看起来更清晰
