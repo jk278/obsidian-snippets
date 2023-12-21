@@ -1,17 +1,13 @@
-@media (prefers-color-scheme: light) {
-    :root {
-        --bg-color-left: #EDEDED;
-        --bg-color-right: #95EC69;
-        --text-color-left: 191919;
-    }
+.theme-light {
+    --bg-color-left: #EDEDED;
+    --bg-color-right: #95EC69;
+    --text-color-left: 191919;
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --bg-color-left: #2C2C2C;
-        --bg-color-right: #3EB575;
-        --text-color-left: #D5D5D5;
-    }
+.theme-dark {
+    --bg-color-left: #2C2C2C;
+    --bg-color-right: #3EB575;
+    --text-color-left: #D5D5D5;
 }
 
 [d="l"],
