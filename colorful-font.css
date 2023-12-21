@@ -1,0 +1,27 @@
+
+.theme-light {
+    --italic-color: #099d4e;
+    --bold-color: hsl(210, 86%, 39%);
+
+    --strong-em-color-1: #1048ff;
+    --strong-em-color-2: #14c8ff;
+}
+
+.theme-dark {
+    --italic-color: #a4ca8e;
+    --bold-color: hsl(180, 53%, 48%);
+ 
+    --strong-em-color-1: #43d3ff;
+    --strong-em-color-2: #baaaff;
+}
+
+.cm-strong.cm-em, *:not(font)>strong>em {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(120deg, var(--strong-em-color-1) 0%, var(--strong-em-color-2) 80%);
+}
+
+span.cm-highlight, mark {
+    border-radius: 3px;
+    padding: 0 2px 1px;
+}
