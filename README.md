@@ -2,7 +2,7 @@
 > 自用 Obsidian CSS 代码库
 
 1. dialog-format --> 仿微信对话框
-    - 格式：`<p d="l">`，l 为左，r 为右
+    - 格式：`<p d="l">`，`l` 为左，`r` 为右
 2. hide-scollbar-mobile --> 在移动端隐藏正文滚动栏
 3. color-heading --> 高亮小标题
 4. floating-button-mobile --> FAB 按钮切换编辑/预览模式
