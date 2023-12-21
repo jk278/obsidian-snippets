@@ -11,6 +11,7 @@
 7. notebook-background --> 笔记本样式背景
 8. wide-view --> 窗口宽视图
 <br>*来源项目：[obsidian-modular-css-layout](https://github.com/efemkay/obsidian-modular-css-layout)*
-9. colorful-callout --> 去除标题，修改颜色
-    - 格式：`>![NOTE|color-1 no-banner]`
+9. colorful-callout --> 修改颜色
+    - 格式：`>![sidenote|color-1 no-icon]`
+<br>*参考项目：[shimmering-focus](https://github.com/chrisgrieser/shimmering-focus)*
 10. colorful-font --> 粗、斜体着色
