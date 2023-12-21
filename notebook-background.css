@@ -1,13 +1,11 @@
-:root {
-    @media (prefers-color-scheme: light) {
-        --bg-color-notebook: #fef9f1;
-        --grid-notebook-line-color-1: #c7c7c740;
-    }
+.theme-light {
+    --bg-color-notebook: #fef9f1;
+    --grid-notebook-line-color-1: #c7c7c740;
+}
 
-    @media (prefers-color-scheme: dark) {
-        --bg-color-notebook: #2a2825;
-        --grid-notebook-line-color-1: #c7c7c71f;
-    }
+.theme-dark {
+    --bg-color-notebook: #2a2825;
+    --grid-notebook-line-color-1: #c7c7c71f;
 }
 
 /* 
