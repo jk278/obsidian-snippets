@@ -1,0 +1,24 @@
+:root {
+    --table-text-size: 95%;
+}
+
+.theme-dark {
+    --table-row-alt-background: hsla(0 0% 0% / 30%);
+}
+
+.theme-light {
+    --table-row-alt-background: hsla(0 0% 0% / 7.5%);
+}
+
+table {
+    font-size: var(--table-text-size);
+    border-collapse: collapse; /* 合并边框 */
+}
+
+.markdown-rendered tbody tr:nth-child(odd) {
+    background-color: var(--table-row-alt-background);
+}
+
+th, td {
+  border: 1px solid gray !important;
+}
