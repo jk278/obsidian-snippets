@@ -2,6 +2,7 @@
 > 自用的 Obsidian CSS 代码库
 
 1. dialog-format --> 仿微信对话框
+    - 格式：`<p d="l">`，l为左，r为右
 2. hide-scollbar-mobile --> 在移动端隐藏正文滚动栏
 3. color-heading --> 高亮小标题
 4. floating-button-mobile --> FAB 按钮切换编辑/预览模式
@@ -9,8 +10,9 @@
 5. custom-list-style --> 多样化列表的样式
 6. intensify-bold-weight --> 将粗体字默认字重加粗
 7. notebook-background --> 笔记本样式背景
+<br>*来源项目：[Blue-Topaz](https://github.com/PKM-er/Blue-Topaz_Obsidian-css)*
 8. wide-view --> 窗口宽视图
-<br>*来源项目：[obsidian-modular-css-layout](https://github.com/efemkay/obsidian-modular-css-layout)*
+<br>*来源项目：[modular-css-layout](https://github.com/efemkay/obsidian-modular-css-layout)*
 9. colorful-callout --> 修改颜色
     - 格式：`>![sidenote|color-1 no-icon]`
 <br>*参考项目：[shimmering-focus](https://github.com/chrisgrieser/shimmering-focus)*
