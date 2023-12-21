@@ -1,5 +1,5 @@
 # Obsidian Snippets
-> 自用 Obsidian CSS 代码库
+> 自用 Obsidian CSS 代码库，简洁为主
 
 1. dialog-format --> 仿微信对话框
     - 格式：`<p d="l">`，`l` 为左，`r` 为右
