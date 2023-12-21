@@ -1,4 +1,4 @@
-# obsidian-snippets
+# Obsidian Snippets
 > 自用 Obsidian CSS 代码库
 
 1. dialog-format --> 仿微信对话框
