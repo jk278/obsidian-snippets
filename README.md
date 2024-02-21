@@ -11,7 +11,8 @@
 6. intensify-bold-weight --> 将粗体字默认字重加粗
 7. notebook-background --> 笔记本样式背景
 <br>*来源项目：[Blue Topaz](https://github.com/PKM-er/Blue-Topaz_Obsidian-css)*
-8. 
+8. gradual-dividing-line --> 宽度渐变主题色分割线
+<br>*与 <7> 搭配使用以防看不清分割线，来源：Blue Topaz*
 9. wide-view --> 窗口宽视图
 10. colorful-callout --> 修改 callout 样式
     - 格式：`>![sidenote|color-1 no-icon]`
