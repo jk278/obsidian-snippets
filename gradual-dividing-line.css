@@ -1,0 +1,22 @@
+.theme-light, .theme-dark {
+    --theme-color: var(--interactive-accent);
+}
+
+body {
+    --font-monospace-theme: 'JetBrains Mono', Consolas, Monaco, "等距更纱黑体 SC", "Source Han Mono", "Microsoft Yahei Mono", "Segoe UI Emoji", "Microsoft YaHei", "Source Code Pro", monospace;
+
+    --hr-color-1: var(--theme-color);
+    --hr-color-2: var(--theme-color);
+    --hr-color-3: var(--theme-color);
+    --hr-color-4: var(--theme-color);
+}
+
+body .markdown-rendered hr {
+    margin-block-start: 2.5em;
+    margin-block-end: 2.5em;
+    border: none;
+    height: 0;
+    border-bottom: 2px solid;
+    border-width: 2px;
+    border-image: linear-gradient(to right, transparent 0%, var(--hr-color-1) 20%, var(--hr-color-2) 40%, var(--hr-color-3) 60%, var(--hr-color-4) 80%, transparent 100%) 1;
+}
