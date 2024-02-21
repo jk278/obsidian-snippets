@@ -11,12 +11,13 @@
 6. intensify-bold-weight --> 将粗体字默认字重加粗
 7. notebook-background --> 笔记本样式背景
 <br>*来源项目：[Blue Topaz](https://github.com/PKM-er/Blue-Topaz_Obsidian-css)*
-8. wide-view --> 窗口宽视图
-9. colorful-callout --> 修改 callout 样式
+8. 
+9. wide-view --> 窗口宽视图
+10. colorful-callout --> 修改 callout 样式
     - 格式：`>![sidenote|color-1 no-icon]`
 <br>*参考项目：[Shimmering Focus](https://github.com/chrisgrieser/shimmering-focus)*
-10. colorful-font --> 粗、斜体着色
-11. focus-table --> 使表格看起来更清晰
+11. colorful-font --> 粗、斜体着色
+12. focus-table --> 使表格看起来更清晰
 
 ### 其他 CSS 推荐
 
